@@ -10,6 +10,7 @@ import { RouterLink, RouterView } from 'vue-router'
         <RouterLink to="/about">About</RouterLink>
         <RouterLink to="/docxview">Docx View</RouterLink>
         <RouterLink to="/wordgen">Word文档生成</RouterLink>
+        <RouterLink to="/html2docx">html2docx</RouterLink>
       </nav>
     </div>
   </header>

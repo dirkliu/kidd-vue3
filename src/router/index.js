@@ -26,6 +26,11 @@ const router = createRouter({
       path: '/wordgen',
       name: 'wordgen',
       component: () => import('../views/WordGen.vue')
+    },
+    {
+      path: '/html2docx',
+      name: 'html2docx',
+      component: () => import('../views/Html2Docx.vue')
     }
   ]
 })
