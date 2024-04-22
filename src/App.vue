@@ -11,6 +11,7 @@ import { RouterLink, RouterView } from 'vue-router'
         <RouterLink to="/docxview">Docx View</RouterLink>
         <RouterLink to="/wordgen">Word文档生成</RouterLink>
         <RouterLink to="/html2docx">html2docx</RouterLink>
+        <RouterLink to="/docxTemplaterDemo">docxTemplaterDemo</RouterLink>
       </nav>
     </div>
   </header>

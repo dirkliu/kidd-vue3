@@ -31,6 +31,11 @@ const router = createRouter({
       path: '/html2docx',
       name: 'html2docx',
       component: () => import('../views/Html2Docx.vue')
+    },
+    {
+      path: '/docxTemplaterDemo',
+      name: 'docxTemplaterDemo',
+      component: () => import('../views/DocxTemplaterDemo.vue')
     }
   ]
 })
